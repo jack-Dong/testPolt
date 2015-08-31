@@ -6,8 +6,9 @@
 Matlab style plot functions for OpenCV
 author libing64 && Jack Dong
 原代码地址 : https://github.com/libing64/CPlot
-我修改完善后的地址：
-功能预览：![Alt text](./testPolt/1.jpg)
+我修改完善后的地址：https://github.com/jack-Dong/testPolt/
+功能预览：
+![Alt text](./testPolt/1.jpg)
 ![Alt text](./testPolt/4.jpg)
 中间是图表的标题（只支持英文，中文会乱码），XY轴两端的红色数字表示输入数据XY的最小最大值，青色是XY轴的数据的意义的标示（同样只支持英文，颜色可自定义），XY轴刻度线自动生成。可以选择不同的形状来表示点（支持多种线型，多种颜色，可选择点雨点之间是否用直线连接）。
 ##说明
