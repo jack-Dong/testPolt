@@ -8,8 +8,8 @@ author libing64 && Jack Dong
 原代码地址 : https://github.com/libing64/CPlot
 我修改完善后的地址：https://github.com/jack-Dong/testPolt/
 功能预览：
-![Alt text](./testPolt/1.jpg)
-![Alt text](./testPolt/4.jpg)
+![Alt text](https://github.com/jack-Dong/testPolt/blob/master/testPolt/1.jpg)
+![Alt text](https://github.com/jack-Dong/testPolt/blob/master/testPolt/4.jpg)
 中间是图表的标题（只支持英文，中文会乱码），XY轴两端的红色数字表示输入数据XY的最小最大值，青色是XY轴的数据的意义的标示（同样只支持英文，颜色可自定义），XY轴刻度线自动生成。可以选择不同的形状来表示点（支持多种线型，多种颜色，可选择点雨点之间是否用直线连接）。
 ##说明
 这个头文件中包含了两个类，`CPlot`和`Plot`，Plot继承自CPlot，两个类都是实现的一样的功能，不同的地方在于Cplot提供`C` 风格 `opencv1.x`参数和返回值，而Plot提供`C++` 风格`opencv2.x`参数的支持。比较而言，Plot比CPlot使用更简单。
@@ -63,7 +63,6 @@ public:
 //+             十字 
 //s(小写)        方块 
 ```
-
 如果需要在同一张图上画出多张曲线，只需要多次调用plot方法，每次调用plot方法的时候对象会把数据存储起来，如果想清除先前存储的数据，可以调用下面的clear（）方法：
 ```	
 public:
