@@ -1,7 +1,9 @@
 # testPolt
-实现Matlab风格的opencv    plot类
+实现Matlab风格的opencv plot类
+
 #plot.h 头文件使用说明
 [toc]
+
 ##功能
 Matlab style plot functions for OpenCV
 author libing64 && Jack Dong
